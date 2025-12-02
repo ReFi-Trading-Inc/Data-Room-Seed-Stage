@@ -128,7 +128,6 @@ ReFi.Trading offers **non-custodial reinforcement learning agents** that execute
 
 **Zeshan Ahmad** (CEO) - System architect, cryptography expert, professor, previously scaled consumer platforms  
 **Daniel Oosthuyzen** (CTO) - RL researcher, quant finance background, built ML systems at fintech startup  
-**[Product Lead]** - Growth operator from D2C companies with proven product development track record
 
 ## Why Now?
 
