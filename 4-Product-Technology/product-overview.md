@@ -1,0 +1,3 @@
+# Product Overview
+
+ReFi.Trading is a web‑based platform where users connect their existing broker accounts via the SnapTrade API. After sign‑up, users can choose from pre‑trained reinforcement learning agents or configure their own parameters. Agents run in paper trading mode, executing trades based on pre‑backtested strategies and applying risk controls such as maximum position size, value at risk limits and progressive caps. Users can monitor agent performance, track metrics and withdraw or pause at any time. The platform is non‑custodial; it never takes possession of user funds.

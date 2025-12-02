@@ -1,0 +1,3 @@
+# User Research & Problem Validation
+
+The current problem statement and ideal customer profile are based on assumptions that require validation through interviews. The target interviewees include power retail traders and small fund managers with portfolios between $10 k and $100 k. Research will focus on problem severity, willingness to pay, trust barriers and desired features. Success criteria include at least 70 % of interviewees rating the problem at 7 out of 10 or higher and at least 60 % expressing willingness to pay $100‑300 per month. Red flags include low problem severity ratings, low willingness to pay and inconsistent pain points across interviews.

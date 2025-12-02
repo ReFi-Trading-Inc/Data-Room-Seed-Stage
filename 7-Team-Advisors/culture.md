@@ -1,0 +1,3 @@
+# Company Culture & Values
+
+ReFi.Trading operates as a remote‑first organisation with a culture of transparency, compliance and rapid iteration. All employees have access to metrics, roadmaps and experiment results. Decisions are data‑driven. The company embraces a compliance‑first mindset, integrating legal review into product development. Team members are encouraged to propose new experiments, learn from failures and focus on delivering value to users.

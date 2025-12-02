@@ -1,0 +1,3 @@
+# IP & Proprietary Technology
+
+ReFi.Trading develops proprietary reinforcement learning models tailored to algorithmic trading. The models use Proximal Policy Optimisation (PPO) and Double Deep Q‑Network (DDQN) algorithms with custom reward shaping and risk‑aware loss functions. Model artefacts are stored securely in Google Cloud Storage and anchored on‑chain in Phase 3. The company may seek patent protection for its RL architecture and non‑custodial execution framework. Trade secrets include hyperparameter schedules, feature engineering methods and safety heuristics. The long‑term strategy balances open‑sourcing certain components to build community trust while retaining key competitive advantages.

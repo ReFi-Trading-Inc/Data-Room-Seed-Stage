@@ -1,0 +1,3 @@
+# Long‑Term Vision (2030 and Beyond)
+
+ReFi.Trading aims to build a decentralised trading infrastructure where reinforcement learning agents operate on a dedicated Layer 2 network (ReFIN L2). The network will anchor proofs on Ethereum L1, ensuring transparency and auditability. On‑chain execution will enable tokenised assets, GPU node participation and staking incentives for providers. Over time, the platform will expand from paper trading to live equities, derivatives and digital assets across global markets. A DePIN (decentralised physical infrastructure) component may emerge, with users contributing compute and bandwidth in exchange for rewards.

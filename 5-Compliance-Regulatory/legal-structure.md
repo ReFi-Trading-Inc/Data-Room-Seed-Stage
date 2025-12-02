@@ -1,0 +1,3 @@
+# Legal Structure
+
+ReFi.Trading will be incorporated as a Delaware C‑Corp for holding IP and raising capital. A wholly owned subsidiary in the UAE (ADGM) will apply for the Category 3A licence and serve as the regulated entity. The cap table will be documented separately. Founders are on a four‑year vesting schedule with a one‑year cliff. An employee stock option pool of 10–15 % is reserved for future hires.
