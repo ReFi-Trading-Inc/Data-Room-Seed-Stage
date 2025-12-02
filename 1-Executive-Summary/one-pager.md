@@ -22,4 +22,4 @@ ReFi.Trading offers non‑custodial reinforcement learning agents that connect d
 
 ## Ask
 
-Seeking Series A funding to accelerate product development, secure licensing in UAE and scale user acquisition. Funds will support engineering, compliance, growth and operations.
+Seeking Seed Stage funding to accelerate product development, secure licensing in UAE and scale user acquisition. Funds will support engineering, compliance, growth and operations.
