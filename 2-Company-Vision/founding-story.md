@@ -2,130 +2,137 @@
 
 ## The Problem That Started It All
 
-In early 2022, Zeshan Ahmad and Daniel Oosthuyzen were independently experiencing the same frustration: they both knew *what* to do in the markets from a technical perspective, but consistently failed to execute due to emotional decision-making.
+For years, Zeshan Ahmad and Daniel Oosthuyzen independently experienced the same frustration: they both knew *what* to do in the markets from a technical perspective, but consistently failed to execute due to emotional decision-making.
 
 **Zeshan's Experience:**  
-As a system architect and cryptography professor, Zeshan had built mass-scale consumer platforms and understood distributed systems deeply. He had been trading equities and crypto on the side for years, with a clear strategy and risk management rules. But he found himself breaking his own rules—holding losers too long, taking profits too early, revenge trading after losses. One particularly painful week at the onset of COVID, when he lost $120,000 because he panic-sold during a market dip, only to watch it recover within days. "I literally teach people how to build trustless systems," he recalls, "but I couldn't trust myself to follow my own trading rules."
+Zeshan’s exposure to markets began early. His father was a stockbroker, and his earliest memories were punching ticker symbols into a Bloomberg terminal in his father’s office.  
+He later worked on electronic trading floors starting in 2001 with a family office that became the largest holder of E*TRADE after selling their trading platform into New York’s early day-trading boom.  
+He then supported Symstream in building 2G wireless signal processing systems and licensing the technology to ATM manufacturer Diebold Nixdorf, enabling secure financial transactions over 2G networks across Australia, Malaysia, Indonesia, and Singapore.  
+While trading equities and crypto, he followed structured rules and clear strategies yet broke those rules during stress, holding losers too long, taking profits too early, and chasing losses.  
+He deepened expertise in software engineering, cryptography, blockchain, and smart contracts, and began teaching these subjects as a professor. Participation in Outlier Ventures’ Web3 accelerator and the Chainlink Build program expanded his understanding of decentralized infrastructure, risk, and compliance.
 
 **Daniel's Experience:**  
-Daniel, a reinforcement learning researcher with a background in quantitative finance, had built ML systems at a fintech startup. He knew the math behind optimal trading strategies and had the coding skills to automate them. But like Zeshan, he struggled with execution. "I had backtested strategies with 2+ Sharpe ratios," Daniel explains, "but when real money was on the line, I'd second-guess the model. I'd see a losing streak and shut it down, or get greedy during a winning streak and over-leverage. Emotionally, I was sabotaging my own algorithms."
+Daniel built quantitative systems inside hedge fund environments. He specialized in modern portfolio theory, optimal allocation, systematic rebalancing, and reinforcement learning for continuous markets.  
+Through his platform thinkquant, he published material on position sizing, Kelly Criterion applications, derivatives risk, and how uncertainty and reward interact across long horizons.  
+He developed strong backtested models supported by robust engineering around data pipelines and execution. Yet when real capital was deployed, emotional bias pulled him away from systematic behavior.  
+“I would see a losing streak and shut a strategy down, then see a strong run and over-leverage,” he explains. “Emotion kept pulling me away from disciplined execution.”
 
 ## The "Aha" Moment
 
-The two met at a blockchain conference in Toronto in June 2022, where Daniel was presenting research on reward-centered reinforcement learning for sequential decision-making. During a coffee break, Zeshan asked a provocative question: "If RL agents can beat humans at Go and StarCraft, why are we still manually executing trades based on gut feelings?"
+The two knew each other through the Alberta tech community, where Daniel presented research on reward-centered reinforcement learning for sequential decision-making. In early 2025, Zeshan reached out with a simple question:
 
-Daniel's response changed everything: "Because most trading bots are built on discounted reward models that assume finite time horizons. Markets are infinite-horizon environments. We're solving the wrong problem with the wrong math."
+“If agents defeat human players in Go and StarCraft, why are traders still clicking buy and sell based on gut feelings?”
 
-Over the next three hours, they sketched out the architecture for what would become ReFi.Trading:
+Daniel’s answer reframed the problem:  
+“Most trading automation relies on discounted-reward models assuming finite episodes. Markets behave as infinite-horizon processes. The math and objectives are misaligned.”
 
-1. **Average-reward RL agents** optimized for infinite-horizon market environments (not finite-episode models like most algo traders use)
-2. **Non-custodial execution** via existing broker APIs (solving the trust problem that killed FTX and similar platforms)
-3. **Transparent risk management** with cryptographic proof-of-risk (addressing the black-box critique of AI trading)
-4. **Regulatory-first approach** (building compliance into the core architecture, not bolting it on later)
+Over several technical deep dives, they outlined the foundations of ReFi.Trading:
 
-"We realized," Zeshan says, "that the combination of these four things didn't exist anywhere in the market. Everyone was either custodial (take my money, trust me) or non-compliant (use my script at your own legal risk) or using outdated RL frameworks. Nobody was building the *right* thing the *right* way."
+1. **Average-reward RL agents** tuned for infinite-horizon markets  
+2. **Non-custodial execution** through REST APIs connected to user-owned broker accounts  
+3. **Browser-based automation** that removes installation friction and expands access globally  
+4. **Transparent risk management** using cryptographic proof-of-risk  
+5. **Portfolio-level logic** rooted in modern portfolio theory and systematic rebalancing  
+6. **Regulatory-first architecture** aligned with ADGM and global compliance  
 
-## From Idea to Alpha (2022-2025)
+“We saw no platform that combined these elements,” Zeshan says. “It needed to exist.”
 
-**Phase 1: Validation (June-December 2022)**  
-The co-founders spent six months validating the core technology:
-- Built a prototype RL agent using RVI-Q (Relative Value Iteration Q-learning)
-- Backtested on 3+ years of equity and crypto data
-- Achieved 28.06% CAGR and 2.07 Sharpe ratio—significantly outperforming buy-and-hold benchmarks
-- Validated that average-reward methods were indeed superior for market environments
+## From Idea to Alpha (March–December 2025)
 
-"That first backtest result," Daniel recalls, "was the moment we knew this wasn't just an idea. The math worked. The question was: could we build a *product* around it?"
+### Phase 1: Rapid Validation (March–April 2025)
+- Built a prototype RL agent using RVI-Q  
+- Backtested on 3.1 years of equity and crypto data  
+- Achieved 28.06% CAGR and a 2.07 Sharpe ratio  
+- Confirmed average-reward RL outperforms discounted models in continuous markets  
 
-**Phase 2: Architecture (January-August 2023)**  
-With technical validation in hand, they focused on product architecture:
-- Designed the non-custodial broker integration via SnapTrade API
-- Architected the risk management layer (VaR limits, progressive caps, kill switches)
-- Built the paper trading environment for safe user testing
-- Researched regulatory frameworks (UAE ADGM emerged as the ideal licensing jurisdiction)
+### Phase 2: Incorporation & Architecture (May–July 2025)
+- Incorporated ReFi.Trading Inc. in Alberta, Canada  
+- Designed a non-custodial execution layer over broker REST APIs  
+- Added VaR limits, progressive caps, and hard kill switches  
+- Selected UAE ADGM for licensing  
+- Joined AMII Scale-Up, VentureLab AI Accelerate, and Google for Startups  
 
-**Phase 3: Incorporation & Seed Prep (September 2023-June 2024)**  
-- Incorporated ReFi.Trading Inc. in Alberta, Canada (June 2024)
-- Brought on a Product Lead with proven growth experience from D2C companies
-- Built MVP web platform with React frontend, Python backend
-- Integrated with SnapTrade for broker connectivity (IBKR, Questrade, Kraken, Coinbase)
-- Created comprehensive investor data room and pitch deck
+### Phase 3: MVP Development (August–October 2025)
+- Built the MVP web platform  
+- Integrated with IBKR, Questrade, Kraken, and Coinbase through SnapTrade  
+- Released paper-trading onboarding  
+- Filed a USPTO patent for a non-custodial zk-VaR RL execution system  
+- Drafted five patent families for future IP  
 
-**Phase 4: Alpha Readiness (July-December 2024)**  
-- Finalized paper trading MVP with risk controls
-- Developed 90-day user acquisition plan targeting 150 alpha signups
-- Prepared for UAE ADGM Category 3A license application
-- Built go-to-market strategy focused on organic content and community
+### Phase 4: Alpha Prep & Fundraising (November–December 2025)
+- Finalized the paper-trading MVP  
+- Built a 90-day alpha acquisition plan  
+- Completed an investor data room  
+- Prepared ADGM Category 3A license documents  
+- Opened a $2.45M seed round at a $15M post-money valuation  
 
 ## The "Why Now?" Inflection Point
 
-Three macro trends converged in 2024-2025 that made this the perfect time to launch:
+### 1. Post-FTX Trust Crisis  
+Demand for non-custodial systems increased sharply.
 
-**1. Post-FTX Trust Crisis (November 2022)**  
-The collapse of FTX and similar custodial platforms created unprecedented demand for non-custodial solutions. Users now understand that "not your keys, not your coins" applies to trading automation too.
+### 2. AI Democratization  
+Open-source RL frameworks, GPUs, and cloud compute reduced barriers.
 
-**2. AI Democratization (2023-2024)**  
-GPUs, RL frameworks (Stable Baselines3, RLlib), and cloud compute became accessible to retail developers. What once required hedge fund infrastructure can now be built with $10K and open-source tools.
+### 3. Regulatory Clarity  
+ADGM and other regulators built clear licensing paths for non-custodial automation.
 
-**3. Regulatory Clarity (2024-2025)**  
-UAE ADGM published clear licensing pathways for non-custodial platforms. Canada updated securities guidance for AI systems. The "regulatory wild west" of 2020-2022 gave way to frameworks that favor compliant innovators.
-
-"We spent 2022-2023 building in relative obscurity," Zeshan explains, "because the market wasn't ready. By late 2024, suddenly everyone was asking for exactly what we'd built: transparent, non-custodial, regulatory-compliant algo trading. The timing aligned perfectly."
+“We accelerated because the environment finally aligned,” Zeshan explains.
 
 ## The Vision: Democratizing Quant Trading
 
-The founding team believes we're at the beginning of a massive democratization wave in quantitative finance—similar to how Robinhood democratized commission-free trading, but far more profound.
-
-**The Old World (2010-2020):**  
-- Algo trading was exclusive to hedge funds with $10M+ budgets
-- Required quant PhDs, proprietary data, co-located servers
-- Retail traders were locked out or forced into black-box custodial bots
+**The Old World (2010–2020):**  
+- Automation accessible only to hedge funds  
+- Retail traders forced into discretionary or custodial tools  
 
 **The New World (2025+):**  
-- RL frameworks are open-source and accessible
-- Broker APIs allow non-custodial automation
-- Cloud compute is cheap and scalable
-- Regulatory frameworks exist for compliant platforms
+- Open-source RL  
+- Non-custodial broker APIs  
+- Browser-based automation  
+- Clear regulatory frameworks  
 
-"We're not trying to build another trading bot," Daniel emphasizes. "We're building the infrastructure layer for the next generation of retail quants. The platform that lets a software engineer in Lagos or a grad student in Mumbai compete with Goldman Sachs on equal footing—without needing $10M in capital or a PhD from MIT."
+“We are not building a bot,” Daniel says. “We are building quant infrastructure for retail.”
 
 ## Mission Statement
 
-**We exist to give every retail trader the tools, transparency, and trust they need to automate trading like a hedge fund—without surrendering custody, compromising on performance, or operating in regulatory gray zones.**
+**ReFi.Trading exists to give retail traders hedge-fund-grade automation, transparency, and discipline—without giving up custody, safety, or compliance.**
 
-We believe:
-- **Trust is earned through transparency,** not marketing promises
-- **Custody belongs to users,** not platforms
-- **Automation should augment human judgment,** not replace it entirely
-- **Regulation is a feature,** not a bug—it protects both users and the ecosystem
-- **Financial tools should be accessible to all,** not just the wealthy and connected
+Core beliefs:
+
+- **Custody belongs to users**  
+- **Execution must be systematic**  
+- **Risk must be transparent**  
+- **Regulation must be integrated**  
+- **Advanced tools should be accessible globally**  
 
 ## What Drives Us
 
-**Zeshan:** "I want my 15-year-old daughter to be able to invest and trade with the same sophistication as a $1B hedge fund, when she's ready. Not in 20 years—now. That's the world we're building."
+**Zeshan:**  
+“I want people anywhere in the world to access structured, disciplined trading tools once limited to institutions. Background and location should never limit access to safe, rule-based automation.”
 
-**Daniel:** "Every time I see someone lose money because they panic-sold or revenge-traded, I'm reminded why this matters. We're not just building software—we're giving people the tools to make rational decisions when their brains are screaming irrational things."
+**Daniel:**  
+“Markets reward structure and consistency. My work in portfolio theory, reinforcement learning, and risk modeling made one thing clear: good math is not enough. Traders need systems that enforce discipline when uncertainty rises. That is how you close the gap between intention and action.”
 
-**The Team:** "We're here to solve the problem we *had* as traders, not the problem we imagined other people might have. That's why every feature, every design decision, every line of code comes from lived experience and pain. This isn't a Silicon Valley 'we're disrupting X' vanity project. This is us building the tool we desperately needed and couldn't find anywhere else."
+**The Team:**  
+“We built the platform we needed. Every feature maps back to a lived problem.”
 
 ## What's Next
 
-As we enter 2025, ReFi.Trading is at the beginning of our journey:
-- **Q4 2024:** Alpha launch, paper trading, 150 users
-- **Q1 2025:** UAE ADGM license filing, compliance buildout
-- **Q2 2025:** Live trading launch, first revenue
-- **Q3 2025:** APAC expansion, marketplace beta
-- **Q4 2025:** $3M ARR, Series A fundraising
+- **Q4 2025:** Alpha launch, paper trading, seed fundraising  
+- **Q1 2026:** ADGM license filing  
+- **Q2 2026:** Live trading and first revenue  
+- **Q3 2026:** Marketplace beta, APAC expansion  
+- **Q4 2026:** $3M ARR milestone, Series A preparation  
 
-The founding team is betting the next decade of their lives on this vision. We're here for the long haul—not to flip the company in 18 months, but to build the definitive platform for democratized quantitative trading.
-
-"In 10 years," Zeshan predicts, "people will look back at 2024 as the year retail algo trading went mainstream—the way we look back at 2013 as the year commission-free trading became standard. And ReFi.Trading will be the infrastructure that made it possible."
+“In ten years,” Zeshan says, “2025 will be remembered as the moment retail automation became mainstream.”
 
 **Join us.**
 
 ---
 
-**Founded:** June 2024 (incorporated)  
+**Founded:** May 2025  
 **Founders:** Zeshan Ahmad (CEO), Daniel Oosthuyzen (CTO)  
 **Headquarters:** Alberta, Canada  
-**Licensing:** UAE ADGM (in progress)  
-**Stage:** Seed fundraising ($2.45M round)
+**Licensing:** UAE ADGM (Q1 2026 target)  
+**Stage:** Seed fundraising  
+**Status:** Pre-revenue, alpha phase  
