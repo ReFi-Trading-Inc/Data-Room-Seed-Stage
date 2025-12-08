@@ -208,5 +208,5 @@ Deck: [Available upon request]
 ---
 
 **Confidential — For Investor Review Only**  
-**Last Updated:** December 2, 2025  
+**Last Updated:** December 8, 2025  
 **Version:** 2.0
