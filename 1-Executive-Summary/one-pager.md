@@ -6,7 +6,7 @@
 
 ## The Problem
 
-76% of active retail traders lose money—not from lack of skill or capital, but from **emotional decision-making**. Manual execution leads to revenge trading, panic selling, and broken risk rules. Existing solutions are inadequate:
+76% of active retail traders lose money, not from lack of skill or capital, but from **emotional decision-making**. Manual execution leads to revenge trading, panic selling, and broken risk rules. Existing solutions are inadequate:
 
 - **DIY Scripts:** Fragile, time-consuming, no risk controls
 - **Custodial Bots:** Require surrendering funds (post-FTX, unacceptable)
