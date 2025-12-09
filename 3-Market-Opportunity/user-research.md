@@ -6,4 +6,4 @@ The current problem statement and ideal customer profile are based on assumption
 
 ## Key Insights: https://github.com/ReFi-Trading-Inc/PD-GTM-Track/blob/main/01-discovery/synthesis/key-insights.md
 
-## https://github.com/ReFi-Trading-Inc/PD-GTM-Track/blob/main/01-discovery/synthesis/patterns-analysis.md
+## Pattern Analysis from User Interviews:  https://github.com/ReFi-Trading-Inc/PD-GTM-Track/blob/main/01-discovery/synthesis/patterns-analysis.md
