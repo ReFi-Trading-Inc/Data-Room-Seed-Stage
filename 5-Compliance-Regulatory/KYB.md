@@ -2,7 +2,7 @@
 
 **Entity:** ReFi Trading Inc.
 
-**Date:** July 2025
+**Date:** December 9, 2025
 
 **Status:** R&D Stage | Pre-Revenue | Non-Custodial | Compliant-by-Design
 
