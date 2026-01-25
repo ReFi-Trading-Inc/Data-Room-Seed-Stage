@@ -117,25 +117,82 @@ QFC framework is **favorable to non-custodial business models:**
 
 #### **Licence Category Options**
 
-We are seeking guidance from QFC on the most appropriate category:
+We are seeking **Category 2 - Arranging Deals in Investments** licence.
 
-**Option A: Category 2 - Arranging Deals in Investments**
-- **Scope:** Execution-only services; platform arranges trades on behalf of clients
-- **Regulatory capital:** ~$250K minimum
-- **Best fit if:** Our AI is deemed advisory/execution-only vs. discretionary management
+**Rationale for Category 2:**
+- **Non-discretionary model:** We execute trades based on **user-defined parameters**, not autonomous investment decisions
+- **Execution-only service:** Users set risk limits, allocation targets, rebalancing thresholds - we execute their strategy
+- **No investment authority:** Users retain full control; can pause, modify, or override at any time
+- **Not a robo-advisor:** Unlike Betterment/Wealthfront which make allocation decisions, users define all parameters
 
-**Option B: Category 3 - Managing Investments**
-- **Scope:** Discretionary portfolio management services
-- **Regulatory capital:** ~$250K-$500K (subject to QFC assessment)
-- **Best fit if:** RL agent's autonomous rebalancing is deemed discretionary management
+**Why NOT Category 3 (Managing Investments):**
+- Category 3 requires discretionary authority to make investment decisions
+- We do NOT have discretionary authority - users make all investment decisions
+- Our RL agent executes WITHIN user constraints, not autonomously
+- Comparable to TradingView alerts, MetaTrader execution, or Interactive Brokers API
 
-**Most likely outcome:** Category 3, given the autonomous nature of our RL agents
+**Critical distinction for Qatar regulators:**
+- ❌ **Robo-advisor:** Platform decides allocation, timing, risk (requires Category 3)
+- ✅ **ReFi.Trading:** User decides allocation, timing, risk; platform executes (Category 2)
 
 ---
 
 #### **Regulatory Capital Requirements**
 
-**Base Capital:** $250,000 USD minimum
+**Base Capital:** $250,000 USD minimum (Category 2)
+- Held in liquid assets (cash or highly liquid securities)
+- Cannot be used for operational expenses
+- Annual audit requirement
+
+**Note:** Category 3 (Managing Investments) would require higher capital and is NOT appropriate for our non-discretionary model.
+
+**Current capitalization:**
+- Seed round target: $2.45M (currently raising)
+- Regulatory capital allocation: $500K reserved
+- Operational runway: 18 months post-funding
+
+---
+
+#### **Critical Regulatory Distinction: Non-Discretionary Execution Tool vs. Robo-Advisor**
+
+**Why this matters:** Qatar (and most GCC regulators) have specific concerns about robo-advisors making autonomous investment decisions. We need to be crystal clear that we are NOT in this category.
+
+**Robo-Advisor Model (Category 3 - Managing Investments):**
+- Platform makes asset allocation decisions for clients
+- Platform determines rebalancing timing autonomously
+- Clients delegate investment authority
+- Examples: Betterment, Wealthfront, Sarwa
+
+**ReFi.Trading Model (Category 2 - Arranging Deals):**
+- **User sets asset allocation** targets (we don't recommend or decide)
+- **User sets rebalancing thresholds** (e.g., "rebalance when drift >5%")
+- **User defines all risk limits** (max position size, volatility, VaR)
+- **User retains investment authority** (can pause, override, modify anytime)
+- Platform executes user's pre-defined strategy within their constraints
+
+**Comparable platforms (all licensed as execution-only, not investment managers):**
+- TradingView (user-defined alerts and automated execution)
+- MetaTrader (user-coded Expert Advisors)
+- Interactive Brokers API (user-built trading applications)
+- QuantConnect (user-defined quantitative strategies)
+
+**Our workflow demonstrating non-discretionary nature:**
+1. User onboarding: User completes questionnaire and **selects** allocation model (conservative/balanced/aggressive/custom)
+2. User sets parameters: User **defines** rebalancing thresholds, risk limits, position constraints
+3. System monitors: Our platform monitors portfolio against **user's targets**
+4. Trigger detection: When **user's threshold** is breached (e.g., 5% drift), system calculates rebalancing trades
+5. Compliance verification: Cryptographic proof confirms trades are within **user's risk limits**
+6. User notification: User receives notification (optional: can require approval)
+7. Execution: Trades execute via broker API **only if user's constraints are met**
+8. User control: User can pause, override, or modify strategy at any time
+
+**At no point does ReFi.Trading make an investment decision. We execute the user's strategy.**
+
+---
+
+#### **Regulatory Capital Requirements**
+
+**Base Capital:** $250,000 USD minimum (Category 2)
 - Held in liquid assets (cash or highly liquid securities)
 - Cannot be used for operational expenses
 - Annual audit requirement
