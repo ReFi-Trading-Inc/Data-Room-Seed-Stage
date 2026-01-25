@@ -8,13 +8,22 @@
 
 ## Executive Summary
 
-ReFi.Trading Inc. is pursuing a **Qatar-first regulatory strategy** to enable live trading for family offices and lean funds. The company is currently operating in paper trading mode only and will not enable live trading until properly licensed.
+ReFi.Trading Inc. is pursuing a **Qatar-first regulatory strategy** to enable live trading for family offices and lean funds across the GCC region. The company is currently operating in paper trading mode only and will not enable live trading until properly licensed.
 
-**Key Strategic Decision:** Qatar Financial Centre (QFC) as primary regulatory home, leveraging Web Summit Qatar 2026 participation to secure exceptional regulatory cost advantages ($0 fees for 4 years).
+**Key Strategic Decision:** Qatar Financial Centre (QFC) as regulatory home, leveraging Web Summit Qatar 2026 participation to secure exceptional regulatory cost advantages ($0 fees for 4 years), then expanding to serve **UAE and Saudi Arabia as primary target markets.**
 
-**Target Market:** Institutional clients only (family offices $50M-$500M AUM, lean funds) - **no retail** until 2027+
+**Market Focus:** GCC family offices and lean funds
+- **Qatar:** Regulatory base + 50-75 addressable clients
+- **UAE:** Primary market with 200-300 addressable clients (served from Qatar initially, then local ADGM licence for retail)
+- **Saudi Arabia (KSA):** Secondary institutional market with 150-250 addressable clients (served from Qatar initially)
 
-**Timeline:** QFC licence approval targeted for June 2026; UAE ADGM licence as secondary pathway by December 2026
+**Pricing:** $2,000/month flat subscription for family offices and lean funds (no execution fees)
+
+**Timeline:** 
+- QFC licence approval: June 2026
+- GCC expansion (UAE/KSA institutional clients): July-Dec 2026
+- UAE ADGM retail licence: 2027
+- Potential KSA CMA licence: 2028 (if retail opportunity warrants)
 
 ---
 
@@ -238,6 +247,203 @@ We are seeking guidance from QFC on the most appropriate category:
 - **Qatar Financial Centre ecosystem:** Partnerships with wealth advisors, law firms
 - **Regional conferences:** MENA Wealth Management Forum, Family Office Forum Middle East
 - **Target:** 5-10 institutional client LOIs secured by March 2026
+
+---
+
+## GCC Market Expansion Strategy (UAE & KSA)
+
+### **Strategic Overview: Qatar as Launch Pad for GCC**
+
+While Qatar serves as our regulatory home, **UAE and Saudi Arabia represent our primary target markets** for family office and lean fund clients.
+
+**Market sizing:**
+- **Qatar:** ~50-75 addressable family offices ($50M-$500M AUM range)
+- **UAE:** ~200-300 addressable family offices (Dubai + Abu Dhabi concentration)
+- **Saudi Arabia (KSA):** ~150-250 addressable family offices (Riyadh, Jeddah wealth centers)
+- **Total GCC:** 400-625 family offices; $4T+ in combined sovereign wealth + private capital
+
+**Rationale for UAE + KSA focus:**
+1. **Market depth:** UAE and KSA combined represent 70-80% of GCC family office market
+2. **Sophistication:** Dubai and Riyadh family offices are highly sophisticated; seek institutional-grade tools
+3. **Cross-border flows:** GCC family offices regularly invest across borders; single QFC licence can serve all three markets initially
+4. **Regulatory harmonization:** GCC countries have mutual recognition frameworks for financial services
+
+---
+
+### **Phase 1: Serve UAE & KSA from Qatar QFC Entity (2026)**
+
+#### **How GCC Cross-Border Financial Services Work**
+
+**Qatar Financial Centre (QFC) entity advantages:**
+- **GCC passporting (informal):** While not formal EU-style passporting, GCC regulators have mutual recognition
+- **Cross-border client servicing:** QFC-licensed firms can serve GCC clients without local presence (subject to conditions)
+- **Regulatory precedent:** Multiple QFC fintech firms serve UAE and KSA clients from Doha base
+
+**Operational model:**
+- **Client location:** UAE or KSA
+- **Client assets:** Held at client's existing broker (Interactive Brokers, Saxo Bank—both operate in UAE/KSA)
+- **ReFi.Trading:** Qatar QFC entity provides portfolio management service remotely
+- **Regulatory compliance:** Primary regulation by QFC; inform UAE/KSA regulators as courtesy
+
+**Requirements for serving UAE/KSA clients from Qatar:**
+1. **Client classification:** Professional/qualified investors only (no retail)
+2. **Disclosure:** Clear disclosure that ReFi.Trading is QFC-regulated, not UAE/KSA-regulated
+3. **No local marketing:** Cannot advertise in UAE/KSA; clients must approach us or be referred
+4. **Broker integration:** Client's broker must be licensed in their jurisdiction (IBKR, Saxo both are)
+5. **Tax compliance:** Clients responsible for local tax reporting (UAE/KSA currently have minimal/no capital gains tax)
+
+---
+
+#### **UAE Market Strategy (Phase 1 - Qatar Entity)**
+
+**Target segments:**
+- **Dubai family offices:** 150-200 ultra-HNW families (real estate, trading, logistics)
+- **Abu Dhabi family offices:** 50-75 sovereign-adjacent families (oil, infrastructure)
+- **Total addressable:** 200-275 family offices; estimated $500M-$5B average AUM
+
+**Client acquisition channels:**
+1. **Web Summit Qatar:** 50+ UAE family offices expected to attend
+2. **Dubai Finance Week (Q2 2026):** Networking event; we'll exhibit
+3. **Family Office Association UAE:** Partnership for member access
+4. **Referral network:** Wealth advisors, law firms, accounting firms in Dubai/Abu Dhabi
+
+**Client onboarding:**
+- Family office completes KYC (same process as Qatar clients)
+- Signs client agreement (governed by QFC law; specifies QFC jurisdiction for disputes)
+- Connects their Interactive Brokers or Saxo account via API
+- ReFi.Trading Qatar entity provides service remotely
+
+**Revenue potential (2026):**
+- **Conservative:** 20 UAE clients x $2,000/month x 7 months = $280K
+- **Target:** 40 UAE clients x $2,000/month x 7 months = $560K
+- **Stretch:** 60 UAE clients x $2,000/month x 7 months = $840K
+
+---
+
+#### **Saudi Arabia (KSA) Market Strategy (Phase 1 - Qatar Entity)**
+
+**Target segments:**
+- **Riyadh family offices:** 100-150 families (construction, retail, finance)
+- **Jeddah family offices:** 50-75 families (trading, hospitality, real estate)
+- **Total addressable:** 150-225 family offices; estimated $500M-$3B average AUM
+
+**Market entry challenges:**
+- **More conservative:** KSA family offices slower to adopt fintech vs. UAE
+- **Local presence preference:** Prefer partners with Saudi presence (though not required)
+- **Regulatory sensitivity:** Capital Markets Authority (CMA) monitors cross-border financial services
+
+**Client acquisition channels:**
+1. **Saudi Fintech Conference (Q3 2026):** Major industry event in Riyadh
+2. **Family Office Network KSA:** Membership organization
+3. **Partnership with Saudi wealth advisors:** Co-marketing to their family office clients
+4. **Qatar-Saudi business council:** Leverage existing Qatar connections
+
+**Revenue potential (2026):**
+- **Conservative:** 10 KSA clients x $2,000/month x 5 months (slower start) = $100K
+- **Target:** 20 KSA clients x $2,000/month x 5 months = $200K
+- **Stretch:** 30 KSA clients x $2,000/month x 5 months = $300K
+
+---
+
+#### **Combined GCC Revenue Potential (Phase 1 - 2026)**
+
+| **Market** | **Conservative** | **Target** | **Stretch** |
+|------------|------------------|------------|-------------|
+| **Qatar** | 15 clients / $180K | 25 clients / $350K | 35 clients / $490K |
+| **UAE** | 20 clients / $280K | 40 clients / $560K | 60 clients / $840K |
+| **KSA** | 10 clients / $100K | 20 clients / $200K | 30 clients / $300K |
+| **TOTAL** | **45 clients / $560K** | **85 clients / $1.11M** | **125 clients / $1.63M** |
+
+**Analysis:**
+- Conservative scenario ($560K) achieves 66% of break-even ($849K operating costs)
+- Target scenario ($1.11M) achieves 131% of break-even (profitable Year 1)
+- Stretch scenario ($1.63M) achieves 192% of break-even (strong profitability)
+
+**Most likely outcome:** Between conservative and target (65-75 clients; $850K-$1M revenue)
+
+---
+
+### **Phase 2: UAE ADGM/DIFC Licences for Retail + Local Presence (2027)**
+
+While Phase 1 serves institutional clients from Qatar, **Phase 2 establishes local UAE presence for two strategic reasons:**
+
+#### **1. Retail Expansion**
+
+**Why local UAE licence is required for retail:**
+- **GCC cross-border:** Only works for professional/qualified clients, NOT retail
+- **UAE retail market:** ~1M retail traders (vs. Qatar's ~50K)
+- **Regulatory requirement:** Must be locally licensed to market to retail investors
+
+**UAE retail strategy:**
+- **Target:** Active retail traders with $25K-$500K accounts
+- **Pricing:** $50-$150/month (lower than institutional $2K/month)
+- **Licence needed:** ADGM Category 3A or DIFC Category 3B
+- **Timeline:** 2027 (after institutional model proven in 2026)
+
+#### **2. Deeper UAE Institutional Penetration**
+
+**Why local presence helps even for institutional:**
+- **Trust signal:** "UAE-regulated" carries weight with Emirati family offices
+- **Local team:** On-ground relationship managers for high-touch client service
+- **Competitive advantage:** Rivals with only Qatar licence perceived as "foreign"
+
+**UAE ADGM vs. DIFC comparison:**
+
+| **Factor** | **ADGM** | **DIFC** |
+|------------|----------|----------|
+| **Regulatory capital** | $750K | $500K |
+| **Application timeline** | 18-22 weeks | 16-20 weeks |
+| **Fintech focus** | Strong (RegLab sandbox) | Moderate |
+| **Crypto-friendly** | Yes (Virtual Asset Framework) | Limited |
+| **Retail investor base** | Growing | Established |
+| **Operating costs** | Lower (newer free zone) | Higher (premium free zone) |
+
+**Decision:** Pursue **ADGM first** due to:
+- Fintech-friendly RegLab program (can test retail offering before full launch)
+- Crypto-friendly framework (supports our long-term DeFi roadmap)
+- Lower ongoing costs vs. DIFC
+
+---
+
+### **Phase 3: Saudi Arabia CMA Licence (2028 - If Needed)**
+
+**Question:** Do we need a separate KSA licence?
+
+**Scenarios:**
+
+**Scenario A: Institutional-only in KSA**
+- **Answer:** Probably NOT needed
+- **Rationale:** Qatar QFC entity can continue serving KSA family offices cross-border
+- **Exception:** If KSA regulatory environment changes to restrict cross-border services
+
+**Scenario B: KSA retail expansion**
+- **Answer:** YES, local licence required
+- **Licence:** Saudi Capital Markets Authority (CMA) Category 1 (Dealing) or Category 7 (Portfolio Management)
+- **Timeline:** 2028 earliest (after UAE retail proven)
+- **Capital requirement:** ~$2M SAR (~$533K USD)
+- **Complexity:** High (Saudization requirements, local board members, Arabic documentation)
+
+**Current position:** Monitor KSA regulatory developments in 2026-2027; decide on local licence based on:
+1. Institutional client traction from Qatar entity (if we sign 50+ KSA clients, consider local presence)
+2. Retail opportunity assessment (KSA has ~500K retail traders; significant market)
+3. Regulatory requirements (if CMA restricts cross-border services)
+
+---
+
+### **Updated GCC Expansion Timeline**
+
+| **Quarter** | **Qatar** | **UAE** | **KSA** | **Cumulative Clients** | **Quarterly Revenue** |
+|-------------|-----------|---------|---------|------------------------|----------------------|
+| **Q2 2026** | Launch (June); 10 clients | Web Summit outreach; 5 clients | Exploratory meetings; 2 clients | **17 clients** | **$102K** |
+| **Q3 2026** | 15 more clients (25 total) | 15 more clients (20 total) | 5 more clients (7 total) | **52 clients** | **$312K** |
+| **Q4 2026** | 10 more clients (35 total) | 20 more clients (40 total) | 8 more clients (15 total) | **90 clients** | **$540K** |
+| **Q1 2027** | 10 more clients (45 total) | 20 more clients (60 total) | 10 more clients (25 total) | **130 clients** | **$780K** |
+| **Q2 2027** | 5 more (50 total) | ADGM retail launch; 100 retail + 20 institutional (80 total institutional) | 10 more (35 total) | **165 inst. + 100 retail** | **$1.6M** |
+
+**Key milestones:**
+- **End-2026:** 90 institutional clients; $1.08M annual revenue (profitable)
+- **Mid-2027:** 165 institutional + 100 retail; $2.4M annual revenue (scale-up phase)
+- **End-2027:** 200 institutional + 500 retail; $5.1M annual revenue (Series A metrics)
 
 ---
 
@@ -490,10 +696,10 @@ White-label partnership serves as **contingency plan** if regulatory approvals a
 | **Feb 2026** | - **Web Summit Qatar participation**<br>- QFC entity incorporation<br>- Pre-application meeting<br>- Fee waiver confirmation | - | - **QFC pre-application submitted**<br>- 10+ family office meetings at Web Summit<br>- 5 institutional pilot LOIs secured | - Incorporation costs: $5K<br>- Legal fees: $15K |
 | **Mar 2026** | - Full QFC application submitted<br>- Compliance officer recruited (Qatar-based)<br>- Office space secured (QSTP or QFC Tower) | - ADGM framework monitoring | - Application fee: $0 (waived)<br>- Compliance officer onboarded<br>- 10 institutional prospects in pipeline | - Compliance officer salary: $8K/month<br>- Office: $5K/month<br>- Legal support: $10K |
 | **Apr-May 2026** | - QFC review & assessment<br>- Response to QFCA queries<br>- Management interviews<br>- On-site inspection (if required) | - Begin ADGM pre-application research | - Paper trading demonstrations for prospects<br>- Finalize AML/KYC policies<br>- Technical infrastructure audit | - Legal/compliance support: $15K<br>- Office setup: $10K<br>- Marketing materials: $5K |
-| **Jun 2026** | - **QFC LICENCE APPROVED** ✅<br>- Regulatory capital deposited ($250K)<br>- Live trading enabled<br>- First 5-10 clients onboarded | - ADGM pre-application initiated | - **Qatar live trading launch**<br>- Target: $10M-$25M AUM (5-10 clients)<br>- First month of live performance data | - Regulatory capital: $250K<br>- Client onboarding team: 2 FTE<br>- Operations scaling: $20K |
-| **Jul-Aug 2026** | - Scale Qatar operations<br>- Onboard 10-20 additional family offices<br>- Expand to broader GCC (UAE, Saudi, Kuwait family offices using Qatar entity) | - **ADGM entity incorporation**<br>- ADGM pre-application meeting<br>- ADGM full application submission | - Client base: 15-30 family offices<br>- Target AUM: $50M-$100M<br>- Monthly revenue: $50K-$100K | - ADGM incorporation: $10K<br>- ADGM application fee: $20K<br>- Geographic expansion marketing: $15K |
-| **Sep-Oct 2026** | - Qatar operational scale-up<br>- GCC expansion continues<br>- Product enhancements based on live trading feedback | - ADGM FSRA review process<br>- Background checks<br>- On-site ADGM visit | - 30-50 institutional clients<br>- $100M-$200M AUM<br>- Monthly revenue: $100K-$200K | - ADGM office setup: $5K<br>- ADGM compliance officer: $8K/month<br>- Product development: $25K |
-| **Nov-Dec 2026** | - Qatar fully operational<br>- Quarterly regulatory reporting to QFCA<br>- Client performance review | - **ADGM LICENCE APPROVED** ✅<br>- Regulatory capital deposited ($750K)<br>- UAE operations commence | - **Dual-licensed (Qatar + UAE)**<br>- 50-75 institutional clients<br>- $200M-$300M AUM<br>- Monthly revenue: $200K-$300K | - ADGM regulatory capital: $750K<br>- Year-end audit preparation: $15K<br>- Series A fundraise initiation |
+| **Jun 2026** | - **QFC LICENCE APPROVED** ✅<br>- Regulatory capital deposited ($250K)<br>- Live trading enabled<br>- First 5-10 Qatar clients onboarded | - ADGM pre-application initiated | - **Qatar live trading launch**<br>- **UAE client outreach begins**<br>- Target: 10 Qatar + 5 UAE clients (15 total)<br>- $30K monthly revenue<br>- First month of live performance data | - Regulatory capital: $250K<br>- Client onboarding team: 2 FTE<br>- Operations scaling: $20K |
+| **Jul-Aug 2026** | - Scale Qatar operations (35 total clients by Aug)<br>- Quarterly regulatory reporting to QFCA | - **ADGM entity incorporation**<br>- ADGM pre-application meeting<br>- ADGM full application submission | - **GCC expansion accelerates**<br>- UAE: 20 clients<br>- KSA: 7 clients<br>- Qatar: 25 clients<br>- **Total: 52 clients**<br>- Monthly revenue: $104K | - ADGM incorporation: $10K<br>- ADGM application fee: $20K<br>- UAE/KSA travel & marketing: $25K<br>- Dubai Finance Week booth: $15K |
+| **Sep-Oct 2026** | - Qatar operational scale-up (45 clients by Oct)<br>- Product enhancements based on live trading feedback | - ADGM FSRA review process<br>- Background checks<br>- On-site ADGM visit | - **UAE becomes largest market**<br>- UAE: 40 clients<br>- KSA: 15 clients<br>- Qatar: 35 clients<br>- **Total: 90 clients**<br>- Monthly revenue: $180K | - ADGM office setup: $5K<br>- ADGM compliance officer: $8K/month<br>- KSA business development: $15K<br>- Product development: $25K |
+| **Nov-Dec 2026** | - Qatar fully operational (50 clients)<br>- Annual regulatory reporting to QFCA<br>- Client performance review | - **ADGM LICENCE APPROVED** ✅<br>- Regulatory capital deposited ($750K)<br>- UAE retail prep begins (launch Q2 2027) | - **Year-end totals:**<br>- UAE: 60 institutional clients<br>- KSA: 25 institutional clients<br>- Qatar: 45 institutional clients<br>- **Total: 130 clients**<br>- Monthly revenue: $260K<br>- **Annual revenue (7 months): $1.1M** | - ADGM regulatory capital: $750K<br>- Year-end audit preparation: $15K<br>- Series A fundraise initiation<br>- Retail product development: $50K |
 
 ---
 
@@ -746,7 +952,7 @@ UAE ADGM criteria (one or more):
 
 **Conflict 3: Performance fees**
 - **Risk:** Incentive to take excessive risk to maximize fees
-- **Mitigation:** Our fee structure is **execution-based (10 bps per trade), not performance-based.** This aligns our incentives with prudent risk management (more trades over time > risky one-time gain)
+- **Mitigation:** Our fee structure is **subscription-based ($2,000/month), not performance-based.** This aligns our incentives with long-term client retention and prudent risk management, not short-term gains.
 
 **Conflict 4: Soft dollar arrangements**
 - **Risk:** Accepting research or services from brokers in exchange for order flow
@@ -777,9 +983,8 @@ UAE ADGM criteria (one or more):
 - Maximum drawdown and volatility metrics
 
 **Fee Disclosure:**
-- Execution fee: 10 basis points per trade notional
-- Subscription fee: $150-$995/month (tiered based on service level)
-- Broker fees: Disclosed separately (not charged by ReFi.Trading)
+- Subscription fee: $2,000/month for family offices and lean funds
+- Broker fees: Disclosed separately (not charged by ReFi.Trading; paid directly to broker)
 - Total cost of ownership example (based on client portfolio size)
 
 **Ongoing reporting:**
@@ -1071,8 +1276,8 @@ UAE ADGM criteria (one or more):
 **Mitigation:**
 1. **B2B2C model:** Partner with wealth advisors, multi-family offices to access their client base
 2. **White-label offering:** License our RL engine to family offices for their internal use (recurring revenue)
-3. **Geographic expansion:** If Qatar/UAE slow, accelerate Singapore/HK applications (larger markets)
-4. **Pricing flexibility:** Reduce subscription fees ($150/mo → $0) and rely purely on execution fees (lower barrier)
+3. **Geographic expansion:** If Qatar/UAE/KSA slow, accelerate Singapore/HK applications (larger markets)
+4. **Volume discounts:** Offer annual prepayment discounts ($24K/year → $20K/year for 12-month commitment)
 
 **Trigger:** If Q3 2026 shows <20 clients onboarded, activate B2B2C partnerships and pricing adjustments
 
@@ -1157,10 +1362,13 @@ UAE ADGM criteria (one or more):
 **Break-even analysis:**
 - **Operating costs Year 1:** $849K
 - **Revenue required:** $850K (break-even)
-- **Assumptions:** 50 clients x $150/mo subscription ($90K) + $760K execution fees (10 bps on $760M traded annually)
-- **Achievable if:** $15M average AUM per client x 50 clients = $750M AUM; rebalancing 4x/year = $3B notional traded → $300K execution fees (conservative; actual likely 2x-3x higher)
+- **Client calculation:** $850K ÷ $2,000/month ÷ 12 months = **36 clients minimum**
+- **Conservative target:** 50 clients by end-2026 → $1.2M annual revenue (41% above break-even)
+- **Stretch target:** 75 clients by end-2026 → $1.8M annual revenue (112% above break-even)
 
-**Realistic Year 1 revenue:** $400K-$600K (below break-even but acceptable for investors; Series A funds Year 2-3 losses)
+**Achievable if:** Average 4-6 new clients per month starting June 2026 (post-Qatar licence)
+
+**Realistic Year 1 revenue (7 months live trading):** $700K-$1.2M (depending on client acquisition pace; below break-even acceptable for Year 1; Series A funds Year 2-3)
 
 ---
 
