@@ -141,14 +141,14 @@ This section contains our most detailed technical documentation:
 
 This section covers:
 
-- **Regulatory Strategy:** Multi-jurisdiction approach (Qatar, UAE ADGM primary, KSA, Canadian backup)
+- **Regulatory Strategy:** Multi-jurisdiction approach (Qatar, Qatar QFC primary, UAE ADGM secondary, KSA, Canadian backup)
 - **Licenses & Approvals:** Detailed path to UAE ADGM Category 3A license
 - **Legal Structure:** Corporate structure and governance
 - **KYC/AML:** Customer verification and anti-money laundering procedures
 - **Risk Mitigation:** How we handle regulatory uncertainty
 
 **What you'll learn:**
-- Why we chose UAE ADGM as primary licensing jurisdiction
+- Why we chose Qatar QFC as primary licensing jurisdiction
 - Timeline and requirements for regulatory approvals (Q2 2026 target)
 - Our backup strategies if primary path encounters delays
 - How we ensure compliance while innovating
