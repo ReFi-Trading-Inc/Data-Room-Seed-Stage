@@ -141,7 +141,7 @@ This section contains our most detailed technical documentation:
 
 This section covers:
 
-- **Regulatory Strategy:** Multi-jurisdiction approach (UAE ADGM primary, Canadian backup)
+- **Regulatory Strategy:** Multi-jurisdiction approach (Qatar, UAE ADGM primary, KSA, Canadian backup)
 - **Licenses & Approvals:** Detailed path to UAE ADGM Category 3A license
 - **Legal Structure:** Corporate structure and governance
 - **KYC/AML:** Customer verification and anti-money laundering procedures
