@@ -8,7 +8,7 @@ The registration path will involve: (1) forming the advisory entity and deciding
 
 ## 1. Internet Adviser Exemption Requirements
 
-Under amended Rule 203A-2(e), an adviser **qualifies only if** it provides advice to *all* clients exclusively through an interactive website or app with no human override【36†L3444-L3452】.  The website must be **operational and interactive**, meaning it runs continuously for multiple clients and can withstand only brief, rare outages.  The rule explicitly defines:
+Under amended Rule 203A-2(e), an adviser **qualifies only if** it provides advice to *all* clients exclusively through an interactive website or app with no human override.  The website must be **operational and interactive**, meaning it runs continuously for multiple clients and can withstand only brief, rare outages.  The rule explicitly defines:
 
 - **Operational interactive website**: a website, mobile app, or similar digital platform through which the adviser provides “digital investment advisory services on an ongoing basis to more than one client (except during temporary technological outages of a de minimis duration).”.  
 
