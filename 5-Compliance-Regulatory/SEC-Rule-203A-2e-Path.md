@@ -86,7 +86,7 @@ Form ADV Part 2A is a written brochure for clients.  ReFi.Trading’s Part 2A s
 
 - **Privacy and Data Use**: Explain how client data (inputs) are protected and used only for advisory purposes.  
 
-Part 2A should be factual and written in plain English.  Provide citations to Form ADV instructions (Appendix C) if helpful.  See SEC’s own Appendix C for required sections (services, fees, performance, conflicts, disciplinary history, etc.)【16†L749-L757】.  
+Part 2A should be factual and written in plain English.  Provide citations to Form ADV instructions (Appendix C) if helpful.  See SEC’s own Appendix C for required sections (services, fees, performance, conflicts, disciplinary history, etc.).  
 
 ### 3.5 Form ADV Part 2B – Brochure Supplements
 If any ReFi.Trading supervised persons (advisors or AI engineers) provide advice (even indirectly) to clients, and if any of those individuals meet the definition of “supervised person” under Reg S-P or have discretion, you may need Part 2B.  However, if all advice is algorithmic and no human advisory staff exist, Part 2B may not be needed except possibly for required disclosures about the Chief Compliance Officer or the CEO if they are designated as such.  (Check Part 2B requirements; see Form ADV instructions.)  
