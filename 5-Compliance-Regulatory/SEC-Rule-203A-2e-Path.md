@@ -44,7 +44,7 @@ flowchart LR
 
 - **Custody and Crypto**: If the platform offers execution or holds client assets (e.g. connects wallets or holds crypto on behalf of clients), that implicates the Custody Rule (Advisers Act Rule 206(4)-2).  Strong controls and disclosure on crypto risks will be needed.  Even if only recommending crypto assets, the brochure should warn that digital assets are volatile and largely unregulated.  (SEC guidance on digital asset custody suggests such disclosures and safeguards.)  
 
-- **Compliance Regime**: Once SEC-registered, ReFi.Trading must implement full IA compliance (fiduciary duty, advertising rules, disclosures, codes of ethics, etc.).  SEC exams (see 2020 EIA Risk Alert) have flagged many robo-advisers for weak policies and disclosures【43†L430-L439】.  In particular, ReFi.Trading should document how it ensures advice is in each client’s best interest (see Section 9 below). 
+- **Compliance Regime**: Once SEC-registered, ReFi.Trading must implement full IA compliance (fiduciary duty, advertising rules, disclosures, codes of ethics, etc.).  SEC exams (see 2020 EIA Risk Alert) have flagged many robo-advisers for weak policies and disclosures.  In particular, ReFi.Trading should document how it ensures advice is in each client’s best interest (see Section 9 below). 
 
 ## 3. Registration Process Steps
 
