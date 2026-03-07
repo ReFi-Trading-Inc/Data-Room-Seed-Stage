@@ -2,21 +2,21 @@
 
 ## Executive Summary
 
-ReFi.Trading can register with the SEC as an investment adviser under the Internet Adviser Exemption (Rule 203A‑2(e)), but must strictly adopt a *robot-adviser model*.  Specifically, all client-specific advice **must be generated and delivered solely by ReFi.Trading’s digital platform** (web or mobile app) without any human tailoring.【36†L3444-L3452】【33†L3385-L3393】.  The SEC’s final rule (effective July 8, 2024; compliance by March 31, 2025) requires an *“operational interactive website”* that provides **ongoing advice to more than one client** through software-based algorithms.【33†L3385-L3393】.  The old carve-out allowing up to 15 “non-internet” clients is gone.【36†L3444-L3452】.  ReFi.Trading must update Form ADV to check box 11 (Internet Exemption) and make the new Schedule D representation that it will advise *“on an ongoing basis to more than one client exclusively through an operational interactive website.”*【36†L3444-L3452】【33†L3385-L3393】.  The adviser must keep audit records for at least five years demonstrating exclusive website-based advice【33†L3370-L3378】.  
+ReFi.Trading can register with the SEC as an investment adviser under the Internet Adviser Exemption (Rule 203A‑2(e)), but must strictly adopt a *robot-adviser model*.  Specifically, all client-specific advice **must be generated and delivered solely by ReFi.Trading’s digital platform** (web or mobile app) without any human tailoring.  The SEC’s final rule (effective July 8, 2024; compliance by March 31, 2025) requires an *“operational interactive website”* that provides **ongoing advice to more than one client** through software-based algorithms. The old carve-out allowing up to 15 “non-internet” clients is gone.  ReFi.Trading must update Form ADV to check box 11 (Internet Exemption) and make the new Schedule D representation that it will advise *“on an ongoing basis to more than one client exclusively through an operational interactive website. The adviser must keep audit records for at least five years demonstrating exclusive website-based advice.  
 
-The registration path will involve: (1) forming the advisory entity and deciding its structure, (2) obtaining IARD access and funding the FINRA Flex account, (3) completing Form ADV filings (Part 1A with Item 2.A(11) and Schedule D, Part 2A firm brochure, Part 2B supplements if needed, and Form CRS for retail clients)【36†L3444-L3452】【38†L13-L21】, (4) submitting the application via IARD, and (5) responding to SEC exam staff (45-day review)【9†L427-L436】.  We provide suggested language for key Form ADV fields and sample disclosures on algorithm use, limitations, conflicts, and support limits.  We list necessary governance policies (compliance manual, code of ethics, etc.), audit-log requirements (client inputs, algorithm output, versioning, delivery timestamps, etc.), and exam evidence.  We estimate startup and ongoing costs (IARD fees, legal/compliance, tech updates, annual filings) in a cost table.  Finally, we outline best practices (robust testing, clear disclosures) and common pitfalls (overlooking recordkeeping, mixed human advice) based on SEC guidance【41†L353-L362】【43†L430-L439】, and give a 90-day implementation checklist (with owners) and a gap-analysis template.
+The registration path will involve: (1) forming the advisory entity and deciding its structure, (2) obtaining IARD access and funding the FINRA Flex account, (3) completing Form ADV filings (Part 1A with Item 2.A(11) and Schedule D, Part 2A firm brochure, Part 2B supplements if needed, and Form CRS for retail clients. (4) submitting the application via IARD, and (5) responding to SEC exam staff (45-day review).  We provide suggested language for key Form ADV fields and sample disclosures on algorithm use, limitations, conflicts, and support limits.  We list necessary governance policies (compliance manual, code of ethics, etc.), audit-log requirements (client inputs, algorithm output, versioning, delivery timestamps, etc.), and exam evidence.  We estimate startup and ongoing costs (IARD fees, legal/compliance, tech updates, annual filings) in a cost table.  Finally, we outline best practices (robust testing, clear disclosures) and common pitfalls (overlooking recordkeeping, mixed human advice) based on SEC guidance, and give a 90-day implementation checklist (with owners) and a gap-analysis template.
 
 ## 1. Internet Adviser Exemption Requirements
 
-Under amended Rule 203A-2(e), an adviser **qualifies only if** it provides advice to *all* clients exclusively through an interactive website or app with no human override【36†L3444-L3452】.  The website must be **operational and interactive**, meaning it runs continuously for multiple clients and can withstand only brief, rare outages【3†L959-L964】【33†L3385-L3393】.  The rule explicitly defines:
+Under amended Rule 203A-2(e), an adviser **qualifies only if** it provides advice to *all* clients exclusively through an interactive website or app with no human override【36†L3444-L3452】.  The website must be **operational and interactive**, meaning it runs continuously for multiple clients and can withstand only brief, rare outages.  The rule explicitly defines:
 
-- **Operational interactive website**: a website, mobile app, or similar digital platform through which the adviser provides “digital investment advisory services on an ongoing basis to more than one client (except during temporary technological outages of a de minimis duration).”【33†L3385-L3393】.  
+- **Operational interactive website**: a website, mobile app, or similar digital platform through which the adviser provides “digital investment advisory services on an ongoing basis to more than one client (except during temporary technological outages of a de minimis duration).”.  
 
-- **Digital investment advisory service**: investment advice generated by the platform’s **software-based models, algorithms, or applications**, using personal information each client supplies through the platform【33†L3385-L3393】【36†L3462-L3467】.  Crucially, the platform itself must generate the recommendation – adviser personnel **cannot create, alter, or supplement client-specific advice** outside the system【3†L959-L964】【39†L974-L978】.  Staff may assist clients with technical issues, explain how the algorithm works in general, or help navigate the site, but they must not give bespoke advice beyond the algorithmic output【39†L974-L978】.  
+- **Digital investment advisory service**: investment advice generated by the platform’s **software-based models, algorithms, or applications**, using personal information each client supplies through the platform.  Crucially, the platform itself must generate the recommendation – adviser personnel **cannot create, alter, or supplement client-specific advice** outside the system.  Staff may assist clients with technical issues, explain how the algorithm works in general, or help navigate the site, but they must not give bespoke advice beyond the algorithmic output.  
 
-- **Client count**: Advice must be provided to *more than one* client.  The firm cannot rely on the exemption if it has any clients outside the platform.  The previous allowance (up to 15 non-internet clients) is eliminated【36†L3444-L3452】.  If ReFi.Trading has any “personal” clients receiving advice by phone, email, or in-person, it will lose exemption eligibility.  All advisory relationships must run through the digital system.
+- **Client count**: Advice must be provided to *more than one* client.  The firm cannot rely on the exemption if it has any clients outside the platform.  The previous allowance (up to 15 non-internet clients) is eliminated.  If ReFi.Trading has any “personal” clients receiving advice by phone, email, or in-person, it will lose exemption eligibility.  All advisory relationships must run through the digital system.
 
-- **Recordkeeping**: The adviser must “maintain, in an easily accessible place, for at least five years from the filing of Form ADV, a record demonstrating that it provides investment advice to its clients exclusively through an operational interactive website”【33†L3370-L3378】.  This means logging client inputs and the resulting algorithmic advice to prove no advice was given off-platform.
+- **Recordkeeping**: The adviser must “maintain, in an easily accessible place, for at least five years from the filing of Form ADV, a record demonstrating that it provides investment advice to its clients exclusively through an operational interactive website”.  This means logging client inputs and the resulting algorithmic advice to prove no advice was given off-platform.
 
 ## 2. Implications for ReFi.Trading’s Model
 
@@ -24,11 +24,11 @@ In practice, ReFi.Trading must **become a true robo-adviser**.  The client’s j
 
 - **Algorithmic Advice Pipeline**: Client onboarding, risk profiling, strategy selection and portfolio generation must occur entirely inside the app.  The user enters goals, risk tolerance, time horizon, constraints, etc.  The software’s model then computes recommendations (portfolio, trades, or strategy) based solely on that data.  The client should receive only the platform-generated output, with no founder/analyst edits.  
 
-- **No Parallel Human Advice**: Any current process where founders, analysts or support personnel send personalized signals or trade ideas (via email, Telegram, Discord, calls) must stop.  Those channels can only handle technical support, education, or high-level explanations of the algorithm, not tailored advice.  Otherwise the exemption is jeopardized【39†L974-L978】【36†L3444-L3452】.
+- **No Parallel Human Advice**: Any current process where founders, analysts or support personnel send personalized signals or trade ideas (via email, Telegram, Discord, calls) must stop.  Those channels can only handle technical support, education, or high-level explanations of the algorithm, not tailored advice.  Otherwise the exemption is jeopardized.
 
-- **Support Staff Roles**: Staff interactions are limited to general or technical assistance.  For example, help with logging in, connecting a brokerage, or explaining how the model constructs a portfolio is permitted.  But they **cannot answer** “What should I buy?” or give individualized recommendations outside the app.  All client-specific investment decisions must come from the system itself【39†L974-L978】【36†L3444-L3452】.
+- **Support Staff Roles**: Staff interactions are limited to general or technical assistance.  For example, help with logging in, connecting a brokerage, or explaining how the model constructs a portfolio is permitted.  But they **cannot answer** “What should I buy?” or give individualized recommendations outside the app.  All client-specific investment decisions must come from the system itself.
 
-- **Audit Trail and Oversight**: Instrument all advice with logging.  Record each client’s input profile, which version of the model/algorithm ran, and the exact output (recommended trades or allocations).  Maintain timestamped logs of delivery to the client.  Log software updates and any manual overrides (which ideally should be none).  These records substantiate compliance with “exclusively through the website” and will be needed in an SEC exam【33†L3370-L3378】.
+- **Audit Trail and Oversight**: Instrument all advice with logging.  Record each client’s input profile, which version of the model/algorithm ran, and the exact output (recommended trades or allocations).  Maintain timestamped logs of delivery to the client.  Log software updates and any manual overrides (which ideally should be none).  These records substantiate compliance with “exclusively through the website” and will be needed in an SEC exam.
 
 ```mermaid
 flowchart LR
@@ -40,9 +40,9 @@ flowchart LR
 ```
 *Figure: ReFi.Trading’s service flow – all advice is generated by the platform’s algorithm based on user inputs. Staff involvement is limited to support and education.*  
 
-- **Form CRS**: If ReFi.Trading serves *retail* clients (natural persons or their rep), it must include a Form CRS (Part 3 of Form ADV) with its initial submission【38†L13-L21】.  Form CRS is a brief relationship summary for retail investors that discloses services, fees, conflicts and is filed via IARD along with the registration.  
+- **Form CRS**: If ReFi.Trading serves *retail* clients (natural persons or their rep), it must include a Form CRS (Part 3 of Form ADV) with its initial submission.  Form CRS is a brief relationship summary for retail investors that discloses services, fees, conflicts and is filed via IARD along with the registration.  
 
-- **Custody and Crypto**: If the platform offers execution or holds client assets (e.g. connects wallets or holds crypto on behalf of clients), that implicates the Custody Rule (Advisers Act Rule 206(4)-2).  Strong controls and disclosure on crypto risks will be needed.  Even if only recommending crypto assets, the brochure should warn that digital assets are volatile and largely unregulated.  (SEC guidance on digital asset custody【1†L2505-L2510】 suggests such disclosures and safeguards.)  
+- **Custody and Crypto**: If the platform offers execution or holds client assets (e.g. connects wallets or holds crypto on behalf of clients), that implicates the Custody Rule (Advisers Act Rule 206(4)-2).  Strong controls and disclosure on crypto risks will be needed.  Even if only recommending crypto assets, the brochure should warn that digital assets are volatile and largely unregulated.  (SEC guidance on digital asset custody suggests such disclosures and safeguards.)  
 
 - **Compliance Regime**: Once SEC-registered, ReFi.Trading must implement full IA compliance (fiduciary duty, advertising rules, disclosures, codes of ethics, etc.).  SEC exams (see 2020 EIA Risk Alert) have flagged many robo-advisers for weak policies and disclosures【43†L430-L439】.  In particular, ReFi.Trading should document how it ensures advice is in each client’s best interest (see Section 9 below). 
 
@@ -55,11 +55,11 @@ flowchart LR
 ### 3.2 FINRA IARD Entitlement and Funding
 - **Obtain IARD Access**: Register with FINRA’s IARD system.  The first step is the *Investment Adviser Registration Depository (IARD)* Super Account Administrator (SAA) application.  Designate a Super Account Administrator via the FINRA Entitlement Program (forms and instructions are available on FINRA’s website【11†L288-L305】).  
 - **Set Up Super Account**: Once FINRA approves, set up the Super Account. The SAA creates an Account Administrator and users.  (SEC FAQs note: “You can find the IARD Entitlement Forms and related information under ‘How To Register/File Reports’ on the SEC website.”【9†L415-L424】)  
-- **Fund Flex-Funding Account**: Deposit money into the IARD Flex-Funding Account to cover filing fees.  The initial registration fee depends on Regulatory Assets Under Management (RAUM): $225 if ≥$100M, $150 if $25–$100M, or $40 if < $25M【14†L292-L300】.  Early-stage ReFi might report minimal AUM, likely $40.  State notice filing fees (paid via IARD) should also be funded (check each state fee via FINRA’s site【14†L343-L351】).  
+- **Fund Flex-Funding Account**: Deposit money into the IARD Flex-Funding Account to cover filing fees.  The initial registration fee depends on Regulatory Assets Under Management (RAUM): $225 if ≥$100M, $150 if $25–$100M, or $40 if < $25M.  Early-stage ReFi might report minimal AUM, likely $40.  State notice filing fees (paid via IARD) should also be funded (check each state fee via FINRA’s site).  
 
 ### 3.3 Form ADV Part 1A & Schedule D (Initial Filing)
 - **Basic Information**: Log into IARD and begin a new Form ADV, Part 1A (Firm section).  Fill general details: firm name, jurisdiction, owners, affiliated persons, etc.  Specify SEC as the regulator and list states for notice filings under Item 2.C (for states of business or physical presence).  (If ReFi.Trading has an office or branch in State X, you must register/notice-file there.)  
-- **Item 2.A – Basis for Registration**: Check the box for “Internet Adviser (Rule 203A-2(e))”【36†L3444-L3452】. Do **not** select AUM-based or federal covered fund boxes if those do not apply.  The Internet exemption is the sole eligibility basis here.  
+- **Item 2.A – Basis for Registration**: Check the box for “Internet Adviser (Rule 203A-2(e))”. Do **not** select AUM-based or federal covered fund boxes if those do not apply.  The Internet exemption is the sole eligibility basis here.  
 - **Item 2.A(11)**: Checking box 11 triggers Schedule D Section 2.A.(11).  Item 2.A instructions caution you must meet two conditions: exclusively website advice and recordkeeping【36†L3444-L3452】.  
 - **Schedule D – Section 2.A.(11)**: This is a text field to describe your reliance on the exemption.  Suggested language for ReFi.Trading (tailor as needed) might be:
 
@@ -69,7 +69,7 @@ flowchart LR
 
 - **Item 5 – Regulatory Assets Under Management**: Enter RAUM as of fiscal year-end.  If ReFi.Trading manages client assets (e.g. discretionary portfolios), report that total.  If it only provides advice without taking custody, it may still have RAUM (e.g. assets underlying non-discretionary advice or wrap assets).  
 - **Other Items**: Complete other Part 1A items truthfully (client types, custody, etc.). For example, if ReFi.Trading never holds client funds, check “No” for custody questions.  If any supervised persons meet Form ADV delivery thresholds, you’ll need Part 2B supplements (see below).  
-- **No Annual Updating Amendment Needed Before Filing**: As a new registration, file Part 1A as an “Initial Filing.”  There is a $150 initial fee (if RAUM is low)【14†L293-L300】.  Submit the application electronically through IARD once complete.
+- **No Annual Updating Amendment Needed Before Filing**: As a new registration, file Part 1A as an “Initial Filing.”  There is a $150 initial fee (if RAUM is low).  Submit the application electronically through IARD once complete.
 
 ### 3.4 Form ADV Part 2A – Firm Brochure
 Form ADV Part 2A is a written brochure for clients.  ReFi.Trading’s Part 2A should describe its services, fees, conflicts, and how the digital advisory process works.  Key inclusions:
@@ -102,7 +102,7 @@ If ReFi.Trading serves **retail clients**, file Form CRS along with the initial 
 See SEC Form CRS instructions for exact wording and emphasis on “retail investor” context.
 
 ### 3.7 SEC Review and Deficiency Process
-Once filed, the SEC has **45 calendar days** to act【9†L427-L436】.  If the submission is complete and compliant, the SEC will grant registration by order.  If any information is missing or unclear, exam staff will notify ReFi.Trading (often via phone and email) of deficiencies. A new 45-day period starts once corrections are filed【9†L427-L436】.
+Once filed, the SEC has **45 calendar days** to act【9†L427-L436】.  If the submission is complete and compliant, the SEC will grant registration by order.  If any information is missing or unclear, exam staff will notify ReFi.Trading (often via phone and email) of deficiencies. A new 45-day period starts once corrections are filed.
 
 **Common SEC questions (based on past reviews)** might include:
 - Clarification on how exactly advice is delivered (evidence of the platform).
@@ -158,17 +158,17 @@ Below are **sample excerpts** for key disclosures. Modify to fit ReFi.Trading’
 
 As an SEC-registered adviser, ReFi.Trading must adopt comprehensive compliance and governance policies. Required items include:
 
-- **Compliance Manual (Rule 206(4)-7)**: Written policies and procedures reasonably designed to prevent violations of law.  This should address unique aspects of the robo model (algorithm oversight, cybersecurity, portfolio suitability checks, best execution)【41†L353-L362】【43†L430-L439】. Include procedures for annual review and updates.
+- **Compliance Manual (Rule 206(4)-7)**: Written policies and procedures reasonably designed to prevent violations of law.  This should address unique aspects of the robo model (algorithm oversight, cybersecurity, portfolio suitability checks, best execution). Include procedures for annual review and updates.
 
 - **Chief Compliance Officer (CCO)**: Appoint a CCO.  The CCO’s qualifications should match industry standards.  
 
-- **Code of Ethics (Rule 204A-1)**: A code for all supervised persons requiring periodic personal trading reports, prohibiting insider trading, etc.【41†L379-L388】.
+- **Code of Ethics (Rule 204A-1)**: A code for all supervised persons requiring periodic personal trading reports, prohibiting insider trading, etc.
 
 - **Privacy and Information Security Policies**: Written privacy policies per Regulation S-P. Cybersecurity controls protecting client data and advice algorithms.  
 
 - **Business Continuity Plan**: Procedures for IT/system outages (the rule allows brief outages, so have a BCP that limits downtime).  
 
-- **Books and Records Policy**: Procedures to ensure all required records (client agreements, trading records, communications) are retained for at least five years and the first two years “easily accessible.” The special Internet Adviser record requirement (5-year log of advice delivery) must be in the procedures【33†L3370-L3378】.
+- **Books and Records Policy**: Procedures to ensure all required records (client agreements, trading records, communications) are retained for at least five years and the first two years “easily accessible.” The special Internet Adviser record requirement (5-year log of advice delivery) must be in the procedures.
 
 - **Marketing/Communications Policy**: Controls on advertising and content. Staff should ensure all marketing materials (website copy, emails) accurately describe the algorithm and do not make exaggerated performance claims (SEC has enforced against misleading “robo” ads).  
 
@@ -233,15 +233,15 @@ Below is a **rough cost estimate**, assuming a small startup RIA. Actual figures
 
 **Best Practices:**
 
-- **Thorough Compliance Program**: Follow the SEC’s EIA Risk Alert guidance【41†L353-L362】【43†L430-L439】.  For example, include policies that specifically address your online platform: how algorithms are tested, how frequently portfolios are reviewed, and what triggers manual oversight.  Document performance tests showing algorithms produce results aligned with client profiles【43†L430-L439】.
+- **Thorough Compliance Program**: Follow the SEC’s EIA Risk Alert guidance.  For example, include policies that specifically address your online platform: how algorithms are tested, how frequently portfolios are reviewed, and what triggers manual oversight.  Document performance tests showing algorithms produce results aligned with client profiles.
 
-- **Rigorous Algorithm Oversight**: Periodically audit the algorithm’s output. For instance, simulate client cases and ensure the advice matches the stated risk profile. Log any errors (e.g. rebalancing mistakes) and fix them promptly【43†L453-L462】. Restrict and monitor code changes (limit access to developers and log all updates)【42†L29-L34】.
+- **Rigorous Algorithm Oversight**: Periodically audit the algorithm’s output. For instance, simulate client cases and ensure the advice matches the stated risk profile. Log any errors (e.g. rebalancing mistakes) and fix them promptly【43†L453-L462】. Restrict and monitor code changes (limit access to developers and log all updates).
 
 - **Data Adequacy**: Use comprehensive questionnaires. Many advisers failed exams by asking too few questions, making advice potentially unsuitable【43†L430-L439】. Ensure you capture key client information (age, income, risk, liquidity needs, etc.) and update it regularly.
 
 - **Clear Disclosures**: Be full and fair. Explicitly disclose any material facts about the algorithm’s design and its limits. The SEC found many ADV filings deficient in describing how advice was generated【43†L474-L482】. For example, explain if advice is based on Modern Portfolio Theory, historical correlations, etc., and note the risks if markets deviate from model assumptions.
 
-- **Best Execution Policy**: Document how you select execution venues. The SEC observed advisers without best-ex review procedures【43†L466-L472】. Even if executing through a connected broker, review their trade execution quality and record that review.  
+- **Best Execution Policy**: Document how you select execution venues. The SEC observed advisers without best-ex review procedures. Even if executing through a connected broker, review their trade execution quality and record that review.  
 
 - **Marketing Accuracy**: Ensure all marketing materials match your disclosures. Avoid hype about AI or performance. The SEC has cited firms for misleading “robo” claims (e.g. implying human-level service or exaggerating returns). For instance, do not advertise “guaranteed returns” or “personal financial advisor”.  
 
@@ -251,7 +251,7 @@ Below is a **rough cost estimate**, assuming a small startup RIA. Actual figures
 
 - **Insufficient Logging**: Failing to record advice flow can trigger an exam deficiency. Implement comprehensive logging from Day 1. Use automated logs tied to user IDs.
 
-- **Incomplete ADV/CRS**: Exams found omissions of conflicts (such as referral arrangements)【43†L474-L482】. Remediate by auditing your ADV/CRS drafts with checklists (or legal review) to catch missing conflict disclosures (e.g. if a partner broker pays you fees, or if staff have outside crypto holdings).  
+- **Incomplete ADV/CRS**: Exams found omissions of conflicts (such as referral arrangements. Remediate by auditing your ADV/CRS drafts with checklists (or legal review) to catch missing conflict disclosures (e.g. if a partner broker pays you fees, or if staff have outside crypto holdings).  
 
 - **Weak Cyber Controls**: Robo-advisers often collect sensitive client data. Ensure industry-standard encryption, multi-factor auth, and data privacy compliance. The SEC’s 2021 guidance on cybersecurity for advisers highlights protecting client info.
 
@@ -289,7 +289,7 @@ gantt
 
 - **Days 31–60**: *Document Drafting and Tech Implementation.* Finalize algorithm audit logging and record capture (CTO). Rewrite support knowledge base (Support/CTO). Prepare Form ADV Part 1A responses and Schedule D text (Compliance/Legal). Draft Part 2A brochure and Form CRS (Compliance/Legal). Start building written policies (CCO/Compliance).
 
-- **Days 61–75**: *Final Reviews and Filing.* Complete compliance manual, code of ethics, privacy policy (Compliance). Review all ADV and CRS drafts internally and with legal (CEO/Legal). Finalize Form U4 filings if any IARs needed. File ADV Part 1A, 2A, 2B, CRS on IARD【38†L13-L21】.
+- **Days 61–75**: *Final Reviews and Filing.* Complete compliance manual, code of ethics, privacy policy (Compliance). Review all ADV and CRS drafts internally and with legal (CEO/Legal). Finalize Form U4 filings if any IARs needed. File ADV Part 1A, 2A, 2B, CRS on IARD.
 
 - **Days 76–90**: *SEC Review & State Notice.* Monitor SEC response. Provide any requested follow-up documentation (e.g., sample logs, algorithm description). Once registered, file required state notices and IAR applications (Compliance). Conduct a dry-run of an internal exam: ensure all records are organized.
 
@@ -318,4 +318,4 @@ Fill additional rows (e.g. custody, advertising review) as needed. This gap anal
 
 ---
 
-**Sources:** SEC’s final rule IA-6578 (March 2024) and Form ADV instructions【36†L3444-L3452】【33†L3385-L3393】【18†L1058-L1066】; SEC/IARD FAQs【9†L427-L436】【38†L13-L21】; SEC exam risk alerts on electronic advisers【41†L353-L362】【43†L430-L439】; FINRA IARD guidance【14†L292-L300】【14†L343-L352】. All regulatory citations are for illustrative compliance guidance.
+**Sources:** SEC’s final rule IA-6578 (March 2024) and Form ADV instructions; SEC exam risk alerts on electronic advisers; FINRA IARD guidance. All regulatory citations are for illustrative compliance guidance.
