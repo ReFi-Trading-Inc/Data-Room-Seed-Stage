@@ -46,7 +46,7 @@ We recommend starting with these materials in order:
    - Team, technology, market, competitive positioning
    - Investment thesis and risk mitigation
 
-4. **[Pitch Deck (PDF)](./1-Executive-Summary/Pitch-Deck-Sept-2025.pdf)** (10 min)
+4. **[Pitch Deck (PDF)](https://drive.google.com/file/d/1P-WRMYKxKvRfyymfFR-VUPngNRlH1u3w/view?usp=drive_link)** (10 min)
    - Visual presentation format
    - Same information in slide format
 
